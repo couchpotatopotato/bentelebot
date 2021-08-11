@@ -1,1 +1,2 @@
 pyppeteer==0.2.5
+requests==2.26.0
