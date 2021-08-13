@@ -13,7 +13,7 @@ async def main():
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59")
     await page.goto('https://www.cdc.com.sg:8080/NewPortal/Booking/BookingPL.aspx', {"waitUntil": "networkidle0"})
 
-    await page.setCookie({"name": "ASP.NET_SessionId", "value": "2etwaznhdz0fg3etis0mvq55"})
+    await page.setCookie({"name": "ASP.NET_SessionId", "value": "emqh2f45bhxamj3amssevqam"})
 
     await page.goto('https://www.cdc.com.sg:8080/NewPortal/Booking/BookingPL.aspx', {"waitUntil": "networkidle0"})
 
